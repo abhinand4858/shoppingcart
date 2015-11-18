@@ -1,0 +1,79 @@
+body    {
+   background-color: #080808;
+    padding: 0px;
+
+}
+.navbar-brand   {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.navbar{
+    font-family: 'Gill Sans', 'Gill Sans MT', Arial, sans-serif;
+    color: #ff3300;
+    font-size: 15px;
+
+}
+.jumbotron  {
+    color: #e4e4e4;
+    height: 500px;
+    background-image: url("http://searchengineland.com/figz/wp-content/seloads/2014/08/shopping-bags2-ss-1920.jpg");
+    border-radius: 6px;
+
+
+    font-family: fantasy;
+    text-align: center;
+
+}
+.jumbotron .p {
+    font-family: "Lucida Grande", "Lucida Sans Unicode", Verdana, Arial, Helvetica, sans-serif;
+}
+
+.col-md-4 {
+    text-align:center;
+    color: #feeec8;
+
+}
+
+.col-md-4 > p {
+    font-size: 15px;
+}
+
+
+
+.slide1-body h2 {
+
+    color: #b7b7b7;
+
+    font-family: Times;
+    font-weight: 400;
+
+    font-size: 40px;
+    margin: 5px;
+}
+
+.slide1-body p{
+    color: silver;
+
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 25px ;
+    font-weight: 100;
+
+    margin: 5px
+}
+
+
+
+.slide-feature a {
+    display: block;
+    color: #6fc5e0;
+}
+
+#owl-demo .item{
+    margin: 3px;
+}
+#owl-demo .item img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
