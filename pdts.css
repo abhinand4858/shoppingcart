@@ -1,0 +1,15 @@
+#nav a {
+    font-weight: bold;
+
+}
+
+button {
+    margin: 5px;
+
+}
+.last   {
+    margin-top: 0px;
+}
+.btn-warning {
+    font-family: 'Linux Libertine', Georgia, Times, serif;
+}
