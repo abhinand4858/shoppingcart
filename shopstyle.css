@@ -1,0 +1,31 @@
+button  {
+    margin: 5px;
+    color: #029f23;
+}
+.jumbotron {
+    background-color: #a55858;
+    height: 300px;
+    margin-top: 0px;
+    text-align: center;
+
+}
+.jumbotron  h1{
+
+    text-transform: uppercase;
+    font-weight: 900;
+    font-family: monospace, Courier;
+}
+.jumbotron p{
+
+    font-size: 30px;
+    color: #a6a6a6;
+}
+
+#nav a {
+   font-weight: bold;
+
+}
+
+#image  {
+    margin-left: 75px;
+}

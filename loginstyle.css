@@ -1,0 +1,22 @@
+.nav-tabs    {
+    background-color: lightgrey;
+    height: 45px;
+
+
+}
+
+form    {
+
+    margin-left: 150px;
+    margin-right: 400px;
+
+}
+
+body h2 {
+margin-left: 150px;
+}
+.nav-tabs a   {
+
+    font-weight: 900;
+    color: black;
+}

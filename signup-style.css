@@ -1,0 +1,15 @@
+.nav-tabs    {
+    background-color: lightgrey;
+    height: 45px;
+
+
+}
+.container  {
+    padding-left: 100px
+}
+.nav-tabs a   {
+
+    font-weight: 900;
+    color: black;
+}
+
