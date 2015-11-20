@@ -13,15 +13,15 @@ $conn = mysqli_connect($servername, $username, $password, $dbname);
 if (!$conn) {
     die("Connection failed: " . mysqli_connect_error());
 }
-$strSQL = mysqli_query($conn,"select COUNT(email) from user_details where email='".$email."' and password='".md5($pass)."'");
+$strSQL = mysqli_query($conn,"select email from user_details where email= '$email' and password= '$pass' ");
 $Results = mysqli_fetch_array($strSQL);
 if(count($Results)>=1)
 {
-    $message = $Results['name']." Login Sucessfully!!";
+    echo " Login Sucessfull!!";
 }
 else
 {
-    $message = "Invalid email or password!!";
+    echo "Invalid email or password!!";
 }
 
 

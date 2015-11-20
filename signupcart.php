@@ -44,7 +44,7 @@ if (!$conn) {
 }
 
 
-$sql = "INSERT INTO user_details (email, password) VALUES ('$email', '".md5($pass)."' )";
+$sql = "INSERT INTO user_details (email, password) VALUES ('$email', '$pass' )";
 
 if (mysqli_query($conn, $sql)) {
     echo "<h2>You have successfully signed up</h2>";
